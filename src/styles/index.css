@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Space+Mono:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body{
+        background-color:rgb(29,20,20);
+   }
+    h1,h2,h3,p{
+        color:white
+    }  
+
+    h1,h2,h3{
+        font-family:'Monoton', cursive;
+        font-weight: 800;    
+    }
+   
+   p{
+    font-size: 30px;
+    font-family:'Space Mono', monospace;
+   }
+   
+    h1{
+    font: size 50px;
+
+   }
+
+h2{
+    font-size: 40px;
+
+
+}
+
+p{
+font-size: 25px;
+}
+
+footer{
+
+}
+
+
+.container{
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+}
+
+section.container figure img{
+    transition: transform 8.5s ease-in-out;
+    filter: drop-shadow(10px,10px,30px,rgba(239, 210, 210, 0));
+}
+
+section.container figure img:hover{
+    transform: scale(1.3);
+}
+
